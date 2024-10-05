@@ -1,8 +1,8 @@
 import { Router } from "express";  
-import { getPlayers } from "./controllers/players-controller-";
+import * as playersController from "./controllers/players-controller-";
 
 const router = Router();
 
-router.get("/players", getPlayers)
-
+router.get("/players", playersController.getPlayers)
+router.get("/players/:id", playersController.getPlayerById)
 export default router;
