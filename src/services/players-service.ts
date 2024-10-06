@@ -2,6 +2,7 @@ import { response } from "express";
 import PlayerModel from "../models/player-model";
 import * as playersRepository from "../repositories/players-repository";
 import * as HttpResponse from "../utils/http-helper";
+import { StatisticsModel } from "../models/statistics-model";
 
 export const getPlayersService = async () => {
     const data = await playersRepository.findAllPlayers();
@@ -34,6 +35,28 @@ export const createPlayerService = async (player: PlayerModel) => {
     if (Object.keys(player).length !== 0) {
         await playersRepository.insertPlayer(player);
         response = await HttpResponse.created()
+    }else{
+        response = HttpResponse.badRequest("Erro no cadastro")
+    }
+    return response
+}
+
+export const deletePlayerService = async (id: number) => {
+    let response = null
+    if (id) {
+        await playersRepository.deletePlayer(id);
+        response = await HttpResponse.OK({mensage: "Deletado com sucesso"})
+    }else{
+        response = HttpResponse.badRequest("Erro no cadastro")
+    }
+    return response
+}
+
+export const updatePlayerService = async (id: number, stastics: StatisticsModel) => {
+    let response = null
+    if (id) {
+        await playersRepository.updatePlayer(id, player);
+        response = await HttpResponse.OK({mensage: "Atualizado com sucesso"})
     }else{
         response = HttpResponse.badRequest("Erro no cadastro")
     }

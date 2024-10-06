@@ -10,3 +10,9 @@ router.get("/players/:id", playersController.getPlayerById)
 // Incluir um jogadpr
 router.post("/players",playersController.postPlayer)
 export default router;
+
+// Deletar um jogador
+router.delete("/players/:id",playersController.deletePlayer)
+
+// Atualizar dados de um Jogador
+router.patch("/players/:id",playersController.updatePlayer)
