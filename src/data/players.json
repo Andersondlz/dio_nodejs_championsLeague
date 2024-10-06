@@ -1,0 +1,306 @@
+[
+    {
+        "id": 1,
+        "name": "Lionel Messi",
+        "club": "Paris Saint-Germain",
+        "nationality": "Argentina",
+        "position": "Forward",
+        "statistics": {
+            "overall": 93,
+            "pace": 85,
+            "shooting": 92,
+            "passing": 91,
+            "dribbling": 95,
+            "defending": 35,
+            "physical": 65
+        }
+    },
+    {
+        "id": 2,
+        "name": "Cristiano Ronaldo",
+        "club": "Al Nassr",
+        "nationality": "Portugal",
+        "position": "Forward",
+        "statistics": {
+            "overall": 91,
+            "pace": 87,
+            "shooting": 93,
+            "passing": 81,
+            "dribbling": 88,
+            "defending": 40,
+            "physical": 75
+        }
+    },
+    {
+        "id": 3,
+        "name": "Neymar Jr.",
+        "club": "Paris Saint-Germain",
+        "nationality": "Brazil",
+        "position": "Forward",
+        "statistics": {
+            "overall": 91,
+            "pace": 88,
+            "shooting": 87,
+            "passing": 88,
+            "dribbling": 95,
+            "defending": 37,
+            "physical": 65
+        }
+    },
+    {
+        "id": 4,
+        "name": "Kevin De Bruyne",
+        "club": "Manchester City",
+        "nationality": "Belgium",
+        "position": "Midfielder",
+        "statistics": {
+            "overall": 91,
+            "pace": 77,
+            "shooting": 84,
+            "passing": 93,
+            "dribbling": 89,
+            "defending": 60,
+            "physical": 70
+        }
+    },
+    {
+        "id": 5,
+        "name": "Kylian Mbappé",
+        "club": "Paris Saint-Germain",
+        "nationality": "France",
+        "position": "Forward",
+        "statistics": {
+            "overall": 91,
+            "pace": 97,
+            "shooting": 88,
+            "passing": 85,
+            "dribbling": 92,
+            "defending": 35,
+            "physical": 75
+        }
+    },
+    {
+        "id": 6,
+        "name": "Robert Lewandowski",
+        "club": "Barcelona",
+        "nationality": "Poland",
+        "position": "Forward",
+        "statistics": {
+            "overall": 91,
+            "pace": 84,
+            "shooting": 95,
+            "passing": 80,
+            "dribbling": 87,
+            "defending": 50,
+            "physical": 78
+        }
+    },
+    {
+        "id": 7,
+        "name": "Virgil van Dijk",
+        "club": "Liverpool",
+        "nationality": "Netherlands",
+        "position": "Defender",
+        "statistics": {
+            "overall": 90,
+            "pace": 77,
+            "shooting": 65,
+            "passing": 75,
+            "dribbling": 70,
+            "defending": 90,
+            "physical": 88
+        }
+    },
+    {
+        "id": 8,
+        "name": "Sadio Mané",
+        "club": "Al Nassr",
+        "nationality": "Senegal",
+        "position": "Forward",
+        "statistics": {
+            "overall": 89,
+            "pace": 90,
+            "shooting": 85,
+            "passing": 80,
+            "dribbling": 90,
+            "defending": 45,
+            "physical": 75
+        }
+    },
+    {
+        "id": 9,
+        "name": "Mohamed Salah",
+        "club": "Liverpool",
+        "nationality": "Egypt",
+        "position": "Forward",
+        "statistics": {
+            "overall": 90,
+            "pace": 93,
+            "shooting": 88,
+            "passing": 85,
+            "dribbling": 90,
+            "defending": 35,
+            "physical": 75
+        }
+    },
+    {
+        "id": 10,
+        "name": "Karim Benzema",
+        "club": "Al-Ittihad",
+        "nationality": "France",
+        "position": "Forward",
+        "statistics": {
+            "overall": 90,
+            "pace": 80,
+            "shooting": 90,
+            "passing": 85,
+            "dribbling": 88,
+            "defending": 45,
+            "physical": 76
+        }
+    },
+    {
+        "id": 11,
+        "name": "Luka Modrić",
+        "club": "Real Madrid",
+        "nationality": "Croatia",
+        "position": "Midfielder",
+        "statistics": {
+            "overall": 90,
+            "pace": 70,
+            "shooting": 80,
+            "passing": 91,
+            "dribbling": 88,
+            "defending": 60,
+            "physical": 65
+        }
+    },
+    {
+        "id": 12,
+        "name": "Alisson Becker",
+        "club": "Liverpool",
+        "nationality": "Brazil",
+        "position": "Goalkeeper",
+        "statistics": {
+            "overall": 89,
+            "pace": 65,
+            "shooting": 30,
+            "passing": 70,
+            "dribbling": 50,
+            "defending": 89,
+            "physical": 85
+        }
+    },
+    {
+        "id": 13,
+        "name": "Manuel Neuer",
+        "club": "Bayern Munich",
+        "nationality": "Germany",
+        "position": "Goalkeeper",
+        "statistics": {
+            "overall": 89,
+            "pace": 60,
+            "shooting": 30,
+            "passing": 70,
+            "dribbling": 50,
+            "defending": 90,
+            "physical": 90
+        }
+    },
+    {
+        "id": 14,
+        "name": "Ederson",
+        "club": "Manchester City",
+        "nationality": "Brazil",
+        "position": "Goalkeeper",
+        "statistics": {
+            "overall": 88,
+            "pace": 62,
+            "shooting": 30,
+            "passing": 75,
+            "dribbling": 52,
+            "defending": 88,
+            "physical": 85
+        }
+    },
+    {
+        "id": 15,
+        "name": "Joshua Kimmich",
+        "club": "Bayern Munich",
+        "nationality": "Germany",
+        "position": "Midfielder",
+        "statistics": {
+            "overall": 89,
+            "pace": 77,
+            "shooting": 80,
+            "passing": 89,
+            "dribbling": 85,
+            "defending": 86,
+            "physical": 78
+        }
+    },
+    {
+        "id": 16,
+        "name": "Kante N'Golo",
+        "club": "Chelsea",
+        "nationality": "France",
+        "position": "Midfielder",
+        "statistics": {
+            "overall": 88,
+            "pace": 80,
+            "shooting": 70,
+            "passing": 80,
+            "dribbling": 75,
+            "defending": 90,
+            "physical": 80
+        }
+    },
+    {
+        "id": 17,
+        "name": "Romelu Lukaku",
+        "club": "Inter Milan",
+        "nationality": "Belgium",
+        "position": "Forward",
+        "statistics": {
+            "overall": 87,
+            "pace": 82,
+            "shooting": 85,
+            "passing": 75,
+            "dribbling": 78,
+            "defending": 40,
+            "physical": 88
+        }
+    },
+    {
+        "id": 18,
+        "name": "Son Heung-min",
+        "club": "Tottenham Hotspur",
+        "nationality": "South Korea",
+        "position": "Forward",
+        "statistics": {
+            "overall": 88,
+            "pace": 88,
+            "shooting": 85,
+            "passing": 80,
+            "dribbling": 90,
+            "defending": 35,
+            "physical": 70
+        }
+    },
+    {
+        "id": 19,
+        "name": "Harry Kane",
+        "club": "Tottenham Hotspur",
+        "nationality": "England",
+        "position": "Forward",
+        "statistics": {
+            "overall": 89,
+            "pace": 75,
+            "shooting": 90,
+            "passing": 82,
+            "dribbling": 80,
+            "defending": 45,
+            "physical": 78
+        }
+    }
+]

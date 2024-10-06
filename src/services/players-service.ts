@@ -43,22 +43,24 @@ export const createPlayerService = async (player: PlayerModel) => {
 
 export const deletePlayerService = async (id: number) => {
     let response = null
-    if (id) {
-        await playersRepository.deletePlayer(id);
-        response = await HttpResponse.OK({mensage: "Deletado com sucesso"})
-    }else{
+    const isDelete = await playersRepository.deletePlayer(id)
+    if (isDelete === false) {
         response = HttpResponse.badRequest("Erro no cadastro")
+    }else{
+        response = await HttpResponse.OK({mensage: "Deletado com sucesso"})
     }
     return response
-}
+}   
 
 export const updatePlayerService = async (id: number, stastics: StatisticsModel) => {
+    const data = await playersRepository.updatePlayer(id,stastics)
     let response = null
-    if (id) {
-        await playersRepository.updatePlayer(id, player);
-        response = await HttpResponse.OK({mensage: "Atualizado com sucesso"})
-    }else{
+
+    if (Object.keys(stastics).length === 0) {
         response = HttpResponse.badRequest("Erro no cadastro")
+        
+    }else{
+        response = await HttpResponse.OK(data)
     }
     return response
 }
