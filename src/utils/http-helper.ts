@@ -15,3 +15,21 @@ export const noContent = async(): Promise<HttpResponse> => {
         body: null  
     }
 }
+
+export const badRequest = async(message: string): Promise<HttpResponse> => {
+    return{
+        statudsCode: 400,       
+        body: {      
+            error: message  
+        }
+    }
+}
+
+export const created = async(): Promise<HttpResponse> => {
+    return{
+        statudsCode: 201,
+        body: {
+            mwsage: "Criado com sucesso"
+        }
+    }
+}
