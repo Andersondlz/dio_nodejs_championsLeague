@@ -1,81 +1,36 @@
-<div align="center">
+## Champions League Data Hub 
 
-  <img src="./.github/assets/blue-saiyan-bg.png" alt="Logo" height="200">
-  <h1 align="center"><strong>NODE BOILERPLATE - BLUE EDITION</strong></h1>
-  <p align="center">
-	  Don't start a new Node project from zero!<br> Use this simple <b>Nodejs</b> boilerplate with pre-configured <b>Typescript</b> in a modern way.
-  </p>
+Seu portal completo para as estatísticas da maior competição de clubes do mundo, construído com TypeScript e Node.js.
 
-</div>
+O Champions League Data Hub é uma aplicação backend que fornece dados detalhados sobre a UEFA Champions League. Construída com TypeScript e Node.js, a aplicação consome uma API personalizada para oferecer informações precisas e atualizadas sobre times, jogadores, partidas e estatísticas.
 
-<br />
+**Tecnologias:**
 
-  <!-- Badges -->
-<div align="center">
-  
-  [![TypeScript version][ts-badge]][typescript-5-4]
-  [![Node.js version][nodejs-badge]][nodejs]
+* TypeScript
+* Node.js
+* Express
+* [Outras tecnologias utilizadas, como banco de dados, ferramentas de teste, etc.]
 
-</div>
+**Arquitetura:**
 
-# 🚀 Technologies
+A aplicação segue uma arquitetura de camadas clara, separando as responsabilidades em:
 
-This code source was developed with the following items:
+* **Modelos:** Representam os dados da Champions League (times, jogadores, partidas).
+* **Repositórios:** Interagem com a API personalizada para obter os dados.
+* **Serviços:** Contêm a lógica de negócio, como cálculos de estatísticas e regras de negócio.
+* **Controladores:** Exportam endpoints HTTP para as diferentes funcionalidades.
 
-### 📦 Dependencies
+[Diagrama da arquitetura aqui (se possível)]
 
-- [typescript][typescript-npm] - Superset for application scale JavaScript development
-- [tsx][tsx-npm] - TypeScript Execute (tsx): Enable Node.js to run TypeScript
-- [tsup][tsup-npm] - Bundle your TypeScript library with no config, powered by esbuild
-- [@types/node][@types/node-npm] - type definitions for node
-
-### 📄 Files
-
-- `.gitignore` - Ignore folders like node_modules
-- `.env` - Enviroment variables
-- `tsconfig.json` - Typescript configure Options
-
-### ⚡ Scripts
-
-- `npm run dist`: Compiles TypeScript files to JavaScript in the dist directory.
-- `npm run start:dev`: Runs the server in development mode with environment variables loaded from the .env file.
-- `npm run start:watch`: Runs the server in development mode with support for automatic reload on file changes.
-- `npm run start:dist`: Compiles the project and runs the compiled version from the dist directory.
-
-# 👨‍💻 How To Use
-
-click in **[Use this template]** OR
-
-To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v20+](https://nodejs.org/en/) + [NPM v10+](https://nodejs.org/en/) installed on your computer. From your command line:
+* **Times:** Informações detalhadas sobre cada time, incluindo histórico de participações, elenco atual e estatísticas.
+* **Jogadores:** Estatísticas individuais de cada jogador, como gols, assistências, cartões e histórico de transferências.
+* **Partidas:** Resultados de todas as partidas, com datas, locais e estatísticas detalhadas.
+* **Classificação:** Tabela de classificação atualizada em tempo real, com critérios de desempate.
+* **Estatísticas:** Diversas estatísticas avançadas, como artilharia, assistências, posse de bola e xG.
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/felipeAguiarCode/node-blue-boilerplate
-
-# Go into the repository
-$ cd node-blue-boilerplate
-
-# Install dependencies
-$ npm install
+1. **Clone o repositório:** `git clone https://github.com/Andersondlz/dio_nodejs_championsLeague.git`
+2. **Instale as dependências:** `npm install`
+3. **Configure as variáveis de ambiente:** Copie o arquivo `.env.example` para `.env` e preencha as informações necessárias (ex: URL da API, chave de acesso).
+4. **Inicie a aplicação:** `npm start`
 ```
-
-## Author
-
-| [<img src="https://avatars3.githubusercontent.com/u/37452836?s=96&v=4"><br><sub>Felipe Aguiar</sub>](https://github.com/felipeAguiarCode) |
-| :---------------------------------------------------------------------------------------------------------------------------------------: |
-|                                            [Linkedin](www.linkedin.com/in/felipe-aguiar-exe/)                                             |
-
-# Credits
-
-icons by [Pino Lamanna][dribble-icon]
-
-[typescript]: https://www.typescriptlang.org/
-[typescript-5-4]: https://www.typescriptlang.org/
-[ts-badge]: https://img.shields.io/badge/TypeScript-5.4-blue.svg
-[nodejs-badge]: https://img.shields.io/badge/Node.js->=%2020.00-blue.svg
-[nodejs]: https://nodejs.org/
-[dribble-icon]: https://dribbble.com/Schakalwal
-[typescript-npm]: https://www.npmjs.com/package/typescript
-[tsx-npm]: https://www.npmjs.com/package/tsx
-[tsup-npm]: https://www.npmjs.com/package/tsup
-[@types/node-npm]: https://www.npmjs.com/package/@types/node
